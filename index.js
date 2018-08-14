@@ -18,7 +18,7 @@ function distanceTravelledInFeet(location, destination) {
   return distanceFromLocationInBlocks(location, destination)*264;
 }
 
-function calculateFarePrice (location, destination) {
+function calculatesFarePrice (location, destination) {
   const distance = distanceTravelledInFeet(location, destination);
   if (distance <= 400){
     return "free sample"; 
